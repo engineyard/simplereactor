@@ -1,6 +1,6 @@
 class SimpleReactor
 
-  VERSION = "1.0"
+  VERSION = "1.0.1"
 
   # Simple; not particularly efficient for many entries.
   class TimerMap < Hash
@@ -170,7 +170,7 @@ class SimpleReactor
   end
 
   def find_handles_with_events keys
-    select find_ios(:read), find_ios(:write), keys, 0.01
+    select find_ios(:read), find_ios(:write), keys, 0.1
   end
 
   def find_ios event
