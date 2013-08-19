@@ -4,7 +4,7 @@ require "simplereactor"
 
 Gem::Specification.new do |s|
   s.name        = "simplereactor"
-  s.version     = Simplereactor::VERSION
+  s.version     = SimpleReactor::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kirk Haines"]
   s.email       = ["khaines@engineyard.com"]
